@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.core.view.isInvisible
 import com.example.hw6_q1.databinding.ActivityMainBinding
 
@@ -25,7 +26,6 @@ class MainActivity : AppCompatActivity() {
             val username:String=binding.editTextTextPersonName2.toString()
             val email:String=binding.editTextTextEmailAddress.toString()
             val password:String=binding.editTextTextPassword.toString()
-            val password2:String=binding.editTextTextPassword2.toString()
             val editor:SharedPreferences.Editor =  sharedPreferences.edit()
             editor.putString("name",name)
             editor.putString("username",username)
@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 editor.putString("password", password)
                 editor.apply()
                 editor.commit()
+
             }
 
         }
