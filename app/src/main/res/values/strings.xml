@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HW6_Q1</string>
+    <string name="scrolltext">Kotlin is a statically typed,
+                 general-purpose programming language developed
+                 by JetBrains, that has built world-class IDEs
+                 like IntelliJ IDEA, PhpStorm, Appcode, etc.
+                 It was first introduced by JetBrains in 2011
+                 and a new language for the JVM. Kotlin is
+                 object-oriented language, and a “better language”
+                 than Java, but still be fully interoperable
+                 with Java code. Kotlin is sponsored by Google,
+                 announced as one of the official languages for
+                 Android Development in 2017.
+                 Advantages of Kotlin language:
+                 Easy to learn – Basic is almost similar to java.
+                 If anybody worked in java then easily understand
+                 in no time. Kotlin is multi-platform – Kotlin is
+                 supported by all IDEs of java so you can write
+                 your program and execute them on any machine
+
+             .</string>
+</resources>
